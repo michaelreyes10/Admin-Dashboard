@@ -5,9 +5,10 @@ import New from "./pages/new/New";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Single from "./pages/single/Single";
 import { productInputs, userInputs } from "./formSource";
+import "./style/dark.scss"
 function App() {
   return (
-    <div className="App">
+    <div className="app dark">
        <BrowserRouter>
         <Routes>
           <Route path="/">
